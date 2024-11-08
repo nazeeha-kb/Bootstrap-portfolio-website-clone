@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My portfolio webs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <style>
+
+      *{
+        font-family: "Plus Jakarta Sans", sans-serif ;
+      }
+
+        .hover:hover{
+            background-color: rgba(31, 26, 26, 0.735);
+            color: white;
+        }
+
+        .hover2:hover{
+          background-color: rgba(50, 47, 47, 0.107);
+          transition: 0.7s;
+          color: black;
+          border-radius: 8px;
+        }
+
+        .hover3:hover{
+          font-weight: 900;
+          color: rgb(37, 34, 34);
+        }
+
+        /* GRADIENT TEXT */
+        .gradient-text{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Bg gradient */
+        .bg_gradient{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+        }
+
+        /* .pink-container{
+            border: 2px solid rgb(185, 43, 67);
+        }
+        .blue-container{
+            color:rgb(79, 47, 116);
+            border: 2px solid rgb(95, 65, 141);
+        } */
+
+        .sizing{
+            position: relative;
+            max-height: 40rem;
+            max-width: 45rem;
+            margin-top: 5vw;
+            height: 28vw;
+            width: 30vw;
+        }
+
+        .profile-image{
+            height: 30vw;
+            max-height: 40rem;
+            position: absolute;
+            bottom: 0px;
+            border-radius: 30px;
+          }
+
+          .profile{
+
+          }
+
+        .jumbo{
+          margin-top: 10vh;
+          height: 65vh;
+          width: 100%;
+          overflow: auto;
+        }
+
+        /* .pads{
+          padding-left: 350px;
+          padding-right: 350px;
+        } */
+
+        /* Media query */
+        @media (max-width:750px){
+            .jumbo{
+                margin-top: 15px;
+            }
+        }
+        @media (min-width:768px){
+          .para{
+            width: 60%;
+          }
+        }
+
+        @media (max-width:767px) {
+          .jumbo{
+            height: 90vh;
+          }
+        
+        }
+        
+        @media (max-width:567px) {
+          .jumbo{
+            height: 95vh;
+          }
+        
+        }
+        @media (max-width:460px) {
+          .jumbo{
+            height: 100vh;
+          }
+        
+        }
+        @media (max-width:390px) {
+          .jumbo{
+            height: 105vh;
+          }
+        
+        }
+        @media (max-width:350px) {
+          .jumbo{
+            height: 125vh;
+          }
+        } 
+        @media (max-width:350px) {
+          .jumbo{
+            height: 140vh;
+          }
+        } 
+        @media (max-width:300px) {
+          .jumbo{
+            height: 140vh;
+          }
+        } 
+        @media (max-width:290px) {
+          .jumbo{
+            height: 130vh;
+            width: 55vh;
+            overflow: scroll;
+          }
+        } 
+        @media (min-width:1400px) {
+
+          .sizing{
+            position: relative;
+            height: 34vw;
+            width: 36vw;
+        }
+
+        .profile-image{
+            height: 36vw;
+            position: absolute;
+            bottom: 0px;
+            border-radius: 30px;
+        }}
+        @media (max-width:300px){
+          .toggleral{
+            flex-direction: column;
+          }
+        }
+
+    </style>
+</head>
+  <body class="d-flex flex-column h-100 ">
+  <header>
+      <!-- Normal navbar : col-auto and col-auto me-auto karne se first start and others end pe align hogaye finally !!!-->
+    <div class="container overflow-auto d-none d-lg-block">
+    <ul class="nav m-3 navbar-expand-lg d-flex row fw-bolder">
+      <li class="col-auto me-auto">
+      <a href="#" class=" gradient-text fw-bold mr-auto fs-4 me-auto p-2">Connect Now</a>
+    </li>
+        <li class="nav-item col-auto ">
+          <a class="nav-link active text-secondary hover2" aria-current="page" href="Portfolio_web_1.html">Home</a>
+        </li>
+        <li class="nav-item col-auto">
+          <a class="nav-link active text-secondary hover2" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item col-auto">
+          <a class="nav-link active text-secondary hover2" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item col-auto">
+          <a class="nav-link active text-secondary hover2" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Toggler navbar -->
+   <div class="container">
+    <div class="container toggleral d-flex mt-4 d-lg-none">
+      <a href="#" class="text-decoration-none me-auto"><span class="gradient-text fw-bolder fs-4">Connect Now</span></a>
+      <nav class="d-lg-none navbar navbar-light bg-none ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+  </div>
+
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-none p-2">
+        <ul class="nav m-2 navbar-expand-lg d-flex flex-column fw-bold d-lg-none">
+            <li class="nav-item">
+              <a class="nav-link active text-secondary hover3" aria-current="page" href="Portfolio_web_1.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary hover3" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary hover3" href="Projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary hover3" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="container px-5 pb-5 ">
+        <div class="row align-items-center">
+            <div class=" d-flex justify-content-center text-center text-xxl-start col-xxl-5 pink-container col-12 ">
+                <div class="pink-container p-5 m-4">
+            <!-- Badge -->
+                <div class="badge bg_gradient text-white rounded mb-3">
+                    <div class="text-uppercase"> Design. Development. Tech</div>
+                </div>
+                <div class="fs-3 text-secondary">I can help your business to</div>
+                <h1 class="m-6 fw-bold display-3">
+                    <span class="gradient-text d-inline mb-5">Get online and grow fast</span></h1>
+                <div class="d-flex flex-sm-row flex-column justify-content-xxl-start justify-content-sm-center">
+                <a class="btn btn-primary bg-gradient btn-lg px-sm-5 mt-4 fs-bolder me-sm-4" href="resume.html">Resume</a>
+                <a class="  btn border border-1 border-black btn-lg px-sm-5 ms-sm-3 mt-4 fs-bolder hover" href="Projects.html">Projects</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-7 d-flex justify-content-center blue-container col-xxl-6 col-12 overflow-hidden profile">
+                <div class=" bg_gradient rounded-5 sizing profile-bg ">
+                <img src="../assets/imgs/me_in_niqab.png"  class="h-md-60 profile-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</header>
+
+    <section class="overflow-auto">
+    <div class=" pt-sm-5 pt-3 px-5 text-center justify-content-center pads jumbo bg-light">
+        <h1 class=" pt-sm-5 pb-sm-3 display-3 gradient-text display-4 fw-bolder about">About Me</h1>
+        <p class=" lead">I am Naz. I love trying out new stuff, creating and designing.</p>
+        <p class="pb-3 px-5 mx-md-auto fs-6 text-secondary text-center para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, esse?lorem10 lorem10 lorem20lorem20 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ratione fugiat unde. Provident praesentium quos, tempora necessitatibus ullam tenetur dolores.</p>
+        <a href="https://www.linkedin.com/in/nazeeha-k" target="_blank" class="p-3" ><i class="fs-2 gradient-text fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/isthather_xii" target="_blank" ><i class="fs-2 gradient-text fa fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <!-- row ko cont ke andae put karke col-auto karne se the elems went to the sides-->
+    <footer class="container">
+    <div class="p-4 row alig-items-center justify-content-between flex-column flex-sm-row">
+      <div class="col-auto">Copyright © Naz_Portfolio_2024</div>
+      <div class="col-auto">
+      <a href="#" class="">Privacy</a> <span class="mx-1"> .</span>
+      <a href="#" class="">Terms</a><span class="mx-1"> .</span>
+      <a href="#" class="">Contact</a>
+    </div>
+  </footer>
+  </div>
+  </body>
+</html>

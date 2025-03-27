@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        font-family: "Plus Jakarta Sans", sans-serif ;
+    }
+    .hover2:hover{
+          background-color: rgba(50, 47, 47, 0.107);
+          transition: 0.7s;
+          color: black;
+          border-radius: 8px;
+    }
+    .hover3:hover{
+          font-weight: 900;
+          color: rgb(37, 34, 34);
+    }
+         /* GRADIENT TEXT */
+            .gradient-text{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+        /* Bg gradient */
+        .bg_gradient{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+        }
+
+/* BODYY */
+
+     /* disposible cont design */
+        .pink-container{
+            border: 2px solid rgb(185, 43, 67);
+        }
+        .blue-container{
+            color:rgb(79, 47, 116);
+            border: 2px solid rgb(95, 65, 141);
+        } 
+
+/* Content */
+
+
+
+/* MEDIA QUERIES */
+        /* Navbar */
+        @media (max-width:300px){
+           .toggleral{
+         flex-direction: column;
+           }
+         }
+
+</style>
+
+</head>
+<body>
+    <header>
+        <!-- Normal navbar : col-auto and col-auto me-auto karne se first start and others end pe align hogaye finally !!!-->
+      <div class="container overflow-auto d-none d-lg-block">
+      <ul class="nav m-3 navbar-expand-lg d-flex row fw-bolder">
+        <li class="col-auto me-auto">
+        <a href="index.html" class=" gradient-text fw-bold mr-auto fs-4 me-auto p-2">Connect Now</a>
+      </li>
+          <li class="nav-item col-auto ">
+            <a class="nav-link active text-secondary hover2" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="Projects.html">Projects</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Toggler navbar -->
+     <div class="container">
+      <div class="container toggleral d-flex mt-4 d-lg-none">
+        <a href="#" class="text-decoration-none me-auto"><span class="gradient-text fw-bolder fs-4">Connect Now</span></a>
+        <nav class="d-lg-none navbar navbar-light bg-none ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+  
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-none p-2">
+          <ul class="nav m-2 navbar-expand-lg d-flex flex-column fw-bold d-lg-none">
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="Projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</header>
+
+
+<section class="d-flex flex-column">
+    <!-- main background -->
+<main class="bg-light container-fluid h-100 bg-pri justify-content-center row overflow-auto flex-shrink-0" style="min-height: 110vh;">
+
+<!-- Project section -->
+    <section class="project col-xxl-6 col-xl-8 col-lg-10 col-11 row">
+
+    <!-- heading -->
+        <h1 class="col-12 text-center display-5 fw-bolder my-5">
+            <span class="d-inline gradient-text">Projects</span>
+        </h1>
+    
+    <!-- Segment-1 -->
+    <div class="segment col-12 row shadow mb-5 bg-body rounded-4 overflow-hidden">
+        <div class="col-7 my-5 mx-2">
+            <div class="col-12">
+                <h3 class="fw-bolder mt-4"><span>Project Name 1</span></h3>
+            </div>
+            <div class="col-12 mb-5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta eius sapiente ipsam minus quibusdam dolores earum magnam culpa provident quae pariatur doloremque ab vitae </p>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <img src="../assets/imgs/landscape-ghibili.jpg" alt="300x400">
+        </div>
+    </div>
+
+
+    <!--Segment-2  -->
+    <div class="segment col-12 row shadow mb-5 bg-body rounded-4 overflow-hidden">
+        <div class="col-7 my-5 mx-2">
+            <div class="col-12">
+                <h3 class="fw-bolder mt-4"><span>Project Name 2</span></h3>
+            </div>
+            <div class="col-12 mb-5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta eius sapiente ipsam minus quibusdam dolores earum magnam culpa provident quae pariatur doloremque ab vitae</p>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <img src="../assets/imgs/cat-in-pond.jpg" alt="300x400">
+        </div>
+    </div>
+
+
+
+
+
+    </section>
+<!-- End of project section -->
+
+
+<!-- Contact section -->
+    <section class="contact col-12 row text-center bg_gradient p-5">
+        <div class="col-12 text-white mt-5">
+            <h1 class="display-4 fw-bolder"><span class="d-inline">Let's build something together</span></h1>
+        </div>
+        <div class="col mb-5 mt-3">
+        <a href="contact.html" class="btn btn-lg btn-outline-light">Contact me</a>
+        </div>
+    </section>
+<!-- End of contact section -->
+
+
+
+</main>
+<!-- End of main bg -->
+
+<!-- footer -->
+<footer class="container">
+    <div class="p-4 row alig-items-center justify-content-between flex-column flex-sm-row">
+      <div class="col-auto">Copyright © Naz_Portfolio_2024</div>
+      <div class="col-auto">
+      <a href="#" class="">Privacy</a> <span class="mx-1"> .</span>
+      <a href="#" class="">Terms</a><span class="mx-1"> .</span>
+      <a href="#" class="">Contact</a>
+    </div>
+</footer>
+
+</section>
+
+</body>
+</html>

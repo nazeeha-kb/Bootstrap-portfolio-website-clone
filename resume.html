@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        font-family: "Plus Jakarta Sans", sans-serif ;
+    }
+    .hover2:hover{
+          background-color: rgba(50, 47, 47, 0.107);
+          transition: 0.7s;
+          color: black;
+          border-radius: 8px;
+    }
+    .hover3:hover{
+          font-weight: 900;
+          color: rgb(37, 34, 34);
+    }
+            /* GRADIENT TEXT */
+            .gradient-text{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+        /* Bg gradient */
+        .bg_gradient{
+            background: rgb(198,75,94);
+            background: linear-gradient(90deg, rgba(198,75,94,1) 0%, rgba(121,9,117,1) 48%, rgba(0,212,255,1) 100%);
+        }
+
+     /* BODYY */
+
+     /* disposible cont design */
+        /* .pink-container{
+            border: 2px solid rgb(185, 43, 67);
+        } */
+        /* .blue-container{
+            color:rgb(79, 47, 116);
+            border: 2px solid rgb(95, 65, 141);
+        } */
+
+        /* MEDIA QUERIES */
+        /* Navbar */
+         @media (max-width:300px){
+           .toggleral{
+         flex-direction: column;
+           }
+         }
+
+
+    /* Content */
+    .text-pink{
+        color: rgb(196, 48, 94)
+    }
+/* 
+    .bg-pri{
+        padding-inline: 20%;
+        padding-block: 5%;
+        overflow-x: auto;
+    } */
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <!-- Normal navbar : col-auto and col-auto me-auto karne se first start and others end pe align hogaye finally !!!-->
+      <div class="container overflow-auto d-none d-lg-block">
+      <ul class="nav m-3 navbar-expand-lg d-flex row fw-bolder">
+        <li class="col-auto me-auto">
+        <a href="index.html" class=" gradient-text fw-bold mr-auto fs-4 me-auto p-2">Connect Now</a>
+      </li>
+          <li class="nav-item col-auto ">
+            <a class="nav-link active text-secondary hover2" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="Projects.html">Projects</a>
+          </li>
+          <li class="nav-item col-auto">
+            <a class="nav-link active text-secondary hover2" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Toggler navbar -->
+     <div class="container">
+      <div class="container toggleral d-flex mt-4 d-lg-none">
+        <a href="#" class="text-decoration-none me-auto"><span class="gradient-text fw-bolder fs-4">Connect Now</span></a>
+        <nav class="d-lg-none navbar navbar-light bg-none ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+  
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-none p-2">
+          <ul class="nav m-2 navbar-expand-lg d-flex flex-column fw-bold d-lg-none">
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="Projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary hover3" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</header>
+
+
+<!-- CONTENT -->
+
+<section>
+    <!-- Primary background -->
+<div class="bg-light container-fluid h-100 bg-pri d-flex justify-content-center overflow-auto row" style="min-height: 110vh;">
+    <!-- d-inline grew the text in size paired with display -->
+<h1 class="display-5 text-center fw-bold mt-5"><span class=" gradient-text d-inline">Resume</span>
+</h1>
+
+<!-- Resume long conainer -->
+<div class=" col-xl-7 col-lg-9 col-10 container blue-container row align-center">
+    
+<!-- Experience section -->
+    <section class=" container pink-container mt-5 col-12 row">
+        <div class="justify-content-between row">
+            <h2 class="text-primary fw-bolder col-sm-6 col-5"><span>Experience</span></h3>
+            <button type="button" class="btn btn-primary p-3 col-xxl-4 col-lg-5 col-sm-6 col-7"><i class="fa fa-download m-1"></i>  Download Resume</button>
+        </div>
+
+<!-- Segment 1 -->
+<div class="container shadow px-3 py-5 mb-5 bg-body rounded-4 mt-4 col-12 row">
+
+        <div class="container bg-light rounded-4 p-4 col-lg-3 col-12 mb-lg-0 mb-4 text-center text-lg-start">
+                <div class="text-primary fw-bold pb-2">2024-present</div>
+                <div>
+                    <div class=" small fw-bolder">Graphic designing</div>
+                    <div class="small text-muted">Cake shop</div>
+                    <div class="small text-muted">Mumbai</div>
+                </div>
+    </div>
+    <div class="col-lg-8 col-12 d-flex align-items-center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati eos voluptatem repudiandae dolorem tenetur, harum fugiat veritatis voluptas! Consectetur numquam quam perferendis aut.</p>
+    </div>
+</div>
+<!-- End of segment 1 -->
+
+<!-- Segment 2 -->
+<div class="container shadow px-3 py-5 mb-5 bg-body rounded-4 mt-4 col-12 row">
+
+    <div class="container bg-light rounded-4 p-4 col-lg-3 col-12 mb-lg-0 mb-4 text-center text-lg-start">
+        <div class="text-primary fw-bold pb-2">2024-present</div>
+        <div>
+            <div class="small fw-bolder">Computer Science Student</div>
+            <div class="small text-muted">Null</div>
+        </div>
+</div>
+<div class="col-lg-8 col-12 d-flex align-items-center">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati eos voluptatem repudiandae dolorem tenetur, harum fugiat veritatis voluptas! Consectetur numquam quam perferendis aut.</p>
+</div>
+</div>
+<!-- End of segment 2 -->
+</section>
+<!-- End of experience container -->
+     
+
+
+<!-- Education section -->
+
+<section class=" container pink-container mt-5 col-12 row">
+
+    <div>
+        <h2 class="text-pink fw-bolder mb-4"><span>Education</span></h3>
+    </div>
+
+<!-- Segment 1 -->
+<div class="container shadow px-3 py-5 mb-5 bg-body rounded-4 mt-4 col-12 row">
+
+    <div class="container bg-light rounded-4 p-4 col-lg-3 col-12 mb-lg-0 mb-4 text-center text-lg-start">
+                <div class="text-pink fw-bold pb-2">2024-2028</div>
+                <div class="mb-1">
+                    <div class=" small fw-bold">Manipal</div>
+                    <div class=" small muted">Online</div>
+                </div>
+
+                <div>
+                    <div class="small fst-italic muted">Undergraduate</div>
+                    <div class="small fst-italic muted">BCA</div>
+                </div>
+    </div>
+    <div class="col-lg-8 col-12 d-flex align-items-center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati eos voluptatem repudiandae dolorem tenetur, harum fugiat veritatis voluptas! Consectetur numquam quam perferendis aut.</p>
+    </div>
+</div>
+<!-- End of segment 1 -->
+
+<!-- Segment 2 -->
+ 
+<div class="container shadow px-3 py-5 mb-5 bg-body rounded-4 mt-4 col-12 row">
+
+    <div class="container bg-light rounded-4 p-4 col-lg-3 col-12 mb-lg-0 mb-4 text-center text-lg-start">
+        <div class="text-pink fw-bold pb-2">2024-present</div>
+        <div class="mb-1">
+            <div class="small fw-bold ">Apna college</div>
+            <div class="small muted">YouTube</div>
+        </div>
+
+        <div>
+            <div class="small fst-italic muted">Online Course</div>
+            <div class="small fst-italic muted">Web development</div>
+    </div>
+</div>
+<div class="col-lg-8 col-12 d-flex align-items-center">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium obcaecati eos voluptatem repudiandae dolorem tenetur, harum fugiat veritatis voluptas! Consectetur numquam quam perferendis aut.</p>
+</div>
+</div>
+<!-- End of segment 2 -->
+</section>
+<!-- End of Education container -->
+
+
+<!-- Pro-skills and languages section -->
+<section class="container pink-container shadow p-5 mb-5 bg-body rounded-4 col-12 me-4 row">
+
+    <!-- Professional skills segment -->
+    <div class="container">
+        <div>
+            <h3 class=" fw-bolder mb-0"><span class="gradient-text d-inline"><i class="fas fa-tools m-3"></i>Professional skills</span></h3>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Web development</div>
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Web design</div>
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Programming</div>
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Graphic design</div>
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Video editing</div>
+            <div class="col-3 bg-light rounded-4 m-3 p-3">Photo editing</div>
+        </div>
+
+    </div>
+
+    <!-- Languages segment -->
+    <div class="container">
+        <div>
+            <h3><span class="gradient-text fw-bolder"><i class="fa fa-code m-3"></i>Languages</span></h3>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-4 bg-light rounded-4 m-3 p-3">Python</div>
+            <div class="col-4 bg-light rounded-4 m-3 p-3">HTML</div>
+            <div class="col-4 bg-light rounded-4 m-3 p-3">CSS</div>
+            <div class="col-4 bg-light rounded-4 m-3 p-3">JavaScript</div>
+        </div>
+    </div>
+
+
+
+</section>
+
+    
+    </div>
+        <!-- End of resume long container -->
+
+
+</div>
+<!-- End of primary container -->
+
+<!-- footer -->
+<footer class="container">
+    <div class="p-4 row alig-items-center justify-content-between flex-column flex-sm-row">
+      <div class="col-auto">Copyright © Naz_Portfolio_2024</div>
+      <div class="col-auto">
+      <a href="#" class="">Privacy</a> <span class="mx-1"> .</span>
+      <a href="#" class="">Terms</a><span class="mx-1"> .</span>
+      <a href="#" class="">Contact</a>
+    </div>
+  </footer>
+
+</section>
+    
+</body>
+</html>
